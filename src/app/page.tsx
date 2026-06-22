@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState, useCallback } from "react";
 type CollabStatus = "none" | "dmsent" | "closed" | "failed";
 
 // Edit this list to add/remove VAs — keeps names consistent without needing logins.
-const VA_NAMES = ["Unassigned", "Captain", "Flux", "Echo"];
+const VA_NAMES = ["Unassigned", "Captain", "Flux", "Big Ben"];
 
 interface Project {
   id: number;
